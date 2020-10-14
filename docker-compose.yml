@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: kadl-app
+    build: .
+    command: python3 main.py
+    networks:
+      - kadl
+networks:
+  kadl:
+    driver: bridge

@@ -5,7 +5,7 @@ switch($args[0]) {
         Invoke-DockerSetup
     }
     stop {
-        Remove-BackendSetup
+        Remove-DockerSetup
     }
     default {}
 }

@@ -4,5 +4,5 @@ function Invoke-DockerSetup {
 }
 
 function Remove-DockerSetup {
-    docker-composer down
+    docker-compose down
 }

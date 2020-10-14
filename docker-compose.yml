@@ -2,11 +2,11 @@ version: "3.8"
 
 services:
   app:
-    container_name: kadl-app
+    container_name: pyds-app
     build: .
     command: python3 src/main.py --foo two --bar four
     networks:
-      - kadl
+      - pyds
 networks:
-  kadl:
+  pyds:
     driver: bridge

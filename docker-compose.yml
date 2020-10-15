@@ -5,6 +5,9 @@ services:
     container_name: pyds-app
     build: .
     command: python3 src/main.py --foo two --bar four
+    working_dir: /code/
+    volumes:
+      - ./:/code
     networks:
       - pyds
 networks:

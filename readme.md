@@ -21,7 +21,7 @@ make stop  # stop your docker container
 ```
 
 ## Want to use PhP instead? 
-[PhP Docker Skeleton](https://github.com/kkamara/php-docker-skeleton)
+[PhP Docker Skeleton](https://github.com/kkamara/php-docker-skeleton).
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

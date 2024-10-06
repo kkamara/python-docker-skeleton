@@ -1,6 +1,6 @@
 # Python Docker Skeleton
 
-(2020) Get started with python and docker.
+(2020) Get started with Python and Docker.
 
 ## Installation
 

@@ -20,11 +20,13 @@ make stop  # stop your docker container
 .\ps\run.ps1 stop  # stop your docker container
 ```
 
-## Want to use NodeJS instead? 
-[NodeJS Docker Skeleton](https://github.com/kkamara/nodejs-docker-skeleton).
+## Misc.
 
-## Want to use PhP instead? 
-[PhP Docker Skeleton](https://github.com/kkamara/php-docker-skeleton).
+[Python Docker Skeleton](https://github.com/kkamara/python-docker-skeleton).
+
+[PHP Docker Skeleton](https://github.com/kkamara/php-docker-skeleton).
+
+[NodeJS Docker Skeleton](https://github.com/kkamara/nodejs-docker-skeleton).
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

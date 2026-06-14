@@ -2,22 +2,48 @@
 
 (2020) Get started with Python and Docker.
 
+* [Installation](#installation)
+
+* [Usage](#usage)
+
+* [Not Using Docker?](#not-using-docker)
+
+* [Misc.](#misc)
+
+* [Contributing](#contributing)
+
+* [License](#license)
+
 ## Installation
 
-Make sure you have [Docker Compose](https://docs.docker.com/compose/install/) installed.
+Make sure you have [Docker Compose](https://docs.docker.com/compose/install/) installed if you are using Docker.
 
-## Using Linux?
-
+```bash
+python -m venv env
+source env/bin/activate
+python install -r requirements.txt
 ```
-make start # build & run your script
-make stop  # stop your docker container
+
+## Usage
+
+```bash
+```
+## Usage
+
+```bash
+# to run on first time
+docker-compose up --build
+# to run in background
+docker-compose up --build -d
+# to run when file-changes have been made
+docker-compose up
 ```
 
-## Using Windows?
+<a name="not-using-docker"></a>
+#### Not Using Docker?
 
-```
-.\ps\run.ps1 start # build & run your script
-.\ps\run.ps1 stop  # stop your docker container
+```bash
+python src/main.py -f=foo --bar=baz
 ```
 
 ## Misc.

@@ -2,8 +2,8 @@ import argparse
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--bar', help='Do the bar option')
-    parser.add_argument('--foo', help='Foo the program')
+    parser.add_argument('-b', '--bar', help='Do the bar option')
+    parser.add_argument('-f', '--foo', help='Foo the program')
     return parser.parse_args()
 
 def run():

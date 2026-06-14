@@ -21,7 +21,7 @@ Make sure you have [Docker Compose](https://docs.docker.com/compose/install/) in
 ```bash
 python -m venv env
 source env/bin/activate
-python install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## Usage

@@ -27,10 +27,6 @@ python install -r requirements.txt
 ## Usage
 
 ```bash
-```
-## Usage
-
-```bash
 # to run on first time
 docker-compose up --build
 # to run in background
